@@ -1,0 +1,81 @@
+/*imports normalize stylesheet*/
+@import "normalize.css";
+/*small mobile screen*/
+@media screen and (max-width: 500px) {
+    /*grid col 1*/
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: bisque;
+        padding: auto;
+        grid-gap: 5px;
+              
+    }
+}
+/* another media query*/
+@media screen and (min-width: 2000px){
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: rgb(219, 219, 219);
+        padding: auto;
+        margin-left: 5px;
+        
+    }
+}
+    
+    .grid-item{
+        background-color: rgb(138, 138, 139);
+        border: 1px solid orange;
+        padding: 10px;
+        font-size: auto;
+        
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+
+      }
+          .grid-item-1{
+        grid-column: span 2;
+    }
+    .grid-item-2{
+        grid-row:  span 2;
+    }
+    .grid-item-3{
+        grid-row: span 2;
+    }
+    .grid-item-4{
+        grid-row: span 2;
+    }
+    .grid-item-5{
+        grid-row: span 2;
+    }
+    .grid-item-6{
+        grid-row: span 2;
+    }
+    .grid-item-7{
+        grid-row: span 2;
+    }
+    .grid-item-8{
+        grid-row: span 2;
+    }
+    .grid-item-9{
+        grid-row: span 2;
+    }
+    
+    
+       
+       
+        
+       
+       
+       
+       
+        
+
+       
+
+
+
+
